@@ -67,8 +67,15 @@ Install [Unity 5.6.1](https://unity3d.com/).
 Sign up for a free [Salesforce Developer Edition](https://developer.salesforce.com/signup) (DE) organization.
 
 **TODO: finish writing instructions**
-- Create a connected application.
-- Deploy package.
+#### Create a connected application.
+1. Log in to your DE org.
+2. At the top right of the page, select the gear icon and then click Setup.
+3. From Setup, enter App Manager in the Quick Find and select App Manager. Select the New Connected App.
+4. Enter the Connected App Name SalesforceVR and your contact email. (Remember, one word, no space!)
+5. Under API (Enable OAuth Settings), click to check the Enable OAuth Settings checkbox. Enter a callback URL (we use http://localhost), and under Selected OAuth Scope, move Full access (full) to the Selected OAuth Scopes box. Click Save.
+6. From this screen, copy the connect app’s Consumer Key and Consumer Secret someplace temporarily. You’ll enter this information into the Salesforce Client in Unity after we’re done setting up here.
+
+#### Deploy package.
 
 ## Licenses
 This project uses the [Google VR SDK for Unity](https://github.com/googlevr/gvr-unity-sdk) which is licensed under the Apache License 2.0.

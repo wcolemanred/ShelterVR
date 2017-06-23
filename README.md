@@ -66,16 +66,28 @@ Install [Unity 5.6.1](https://unity3d.com/).
 ### Sign up for a Salesforce DE org
 Sign up for a free [Salesforce Developer Edition](https://developer.salesforce.com/signup) (DE) organization.
 
-**TODO: finish writing instructions**
 #### Create a connected application.
 1. Log in to your DE org.
-2. At the top right of the page, select the gear icon and then click Setup.
-3. From Setup, enter App Manager in the Quick Find and select App Manager. Select the New Connected App.
-4. Enter the Connected App Name SalesforceVR and your contact email. (Remember, one word, no space!)
-5. Under API (Enable OAuth Settings), click to check the Enable OAuth Settings checkbox. Enter a callback URL (we use http://localhost), and under Selected OAuth Scope, move Full access (full) to the Selected OAuth Scopes box. Click Save.
-6. From this screen, copy the connect app’s Consumer Key and Consumer Secret someplace temporarily. You’ll enter this information into the Salesforce Client in Unity after we’re done setting up here.
+2. At the top right of the page, select the gear icon and then click **Setup**.
+3. From Setup, enter "App Manager" in the Quick Find and select **App Manager**.
+4. Click **New Connected App**.
+5. Enter "SalesforceVR" as the **Connected App Name**
+6. Enter your **Contact Email**.
+7. Under **API (Enable OAuth Settings)**, check the **Enable OAuth Settings** checkbox.
+8. Enter "http://localhost:8080/" as the **Callback UR**.
+9. Under **Selected OAuth Scope**, move **Access and manage your data (API)** to the Selected OAuth Scopes list.
+10. Click **Save**.
+11. From this screen, copy the connect app’s **Consumer Key** and **Consumer Secret** someplace temporarily. You’ll enter this information in Unity after we’re done setting up here.
+
+#### Setup My Domain
+1. [Enable My Domain](https://help.salesforce.com/articleView?id=domain_name_setup.htm)
+2. Deploy it to your users:
+   1. In Setup, enter "My Domain" in the Quick Find box and select **My Domain**.
+   2. Click **Deploy to Users**.
+   3. Click **OK**.
 
 #### Deploy package.
+**TODO: finish writing instructions**
 
 ## Licenses
 This project uses the [Google VR SDK for Unity](https://github.com/googlevr/gvr-unity-sdk) which is licensed under the Apache License 2.0.

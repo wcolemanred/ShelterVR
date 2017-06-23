@@ -41,7 +41,7 @@ Android Debug Bridge version 1.0.39
 Revision 5943271ace17-android
 ```
 
-### Enable developer mode on your phone
+### Enable Developer Mode on your phone
 Find the instructions to enable the developer mode on your phone (instructions vary depending on the phone model).
 
 Once you have enabled developer mode, enable USB debugging.
@@ -58,15 +58,16 @@ List of devices attached
 
 You want to make sure that the status is `device`.
 
-### Checkout project from git
+### Clone or download project from git
+Start cloning or downloading the project while you continue to setup.
 
 ### Install Unity
 Install [Unity 5.6.1](https://unity3d.com/).
 
-### Sign up for a Salesforce DE org
+### Sign up for a Salesforce DE Org
 Sign up for a free [Salesforce Developer Edition](https://developer.salesforce.com/signup) (DE) organization.
 
-#### Create a connected application.
+#### Create a Connected App
 1. Log in to your DE org.
 2. At the top right of the page, select the gear icon and then click **Setup**.
 3. From Setup, enter "App Manager" in the Quick Find and select **App Manager**.
@@ -86,7 +87,7 @@ Sign up for a free [Salesforce Developer Edition](https://developer.salesforce.c
    2. Click **Deploy to Users**.
    3. Click **OK**.
 
-#### Deploy package.
+#### Deploy the Shelter Project package
 **TODO: finish writing instructions**
 
 ## Licenses

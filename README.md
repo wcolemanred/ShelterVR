@@ -91,4 +91,7 @@ Sign up for a free [Salesforce Developer Edition](https://developer.salesforce.c
 **TODO: finish writing instructions**
 
 ## Licenses
-This project uses the [Google VR SDK for Unity](https://github.com/googlevr/gvr-unity-sdk) which is licensed under the Apache License 2.0.
+This project uses:
+- [Google VR SDK for Unity](https://github.com/googlevr/gvr-unity-sdk) licensed under Apache License 2.0
+- [Salesforce Unity SDK](https://github.com/pozil/salesforce-unity-sdk) licensed under BSD-3-Clause
+  - JSONObject Copyright (C) 2012 Boomlagoon Ltd.

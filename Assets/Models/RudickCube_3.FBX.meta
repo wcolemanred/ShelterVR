@@ -1,0 +1,475 @@
+fileFormatVersion: 2
+guid: d1818cc057882f549b593466eeab0525
+timeCreated: 1483528518
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cylinder001
+    100002: Part1
+    100004: Part10
+    100006: Part11
+    100008: Part12
+    100010: Part13
+    100012: Part14
+    100014: Part15
+    100016: Part16
+    100018: Part17
+    100020: Part18
+    100022: Part19
+    100024: Part2
+    100026: Part20
+    100028: Part21
+    100030: Part22
+    100032: Part23
+    100034: Part24
+    100036: Part25
+    100038: Part26
+    100040: Part3
+    100042: Part4
+    100044: Part5
+    100046: Part6
+    100048: Part7
+    100050: Part8
+    100052: Part9
+    100054: Plane001
+    100056: //RootNode
+    400000: Cylinder001
+    400002: Part1
+    400004: Part10
+    400006: Part11
+    400008: Part12
+    400010: Part13
+    400012: Part14
+    400014: Part15
+    400016: Part16
+    400018: Part17
+    400020: Part18
+    400022: Part19
+    400024: Part2
+    400026: Part20
+    400028: Part21
+    400030: Part22
+    400032: Part23
+    400034: Part24
+    400036: Part25
+    400038: Part26
+    400040: Part3
+    400042: Part4
+    400044: Part5
+    400046: Part6
+    400048: Part7
+    400050: Part8
+    400052: Part9
+    400054: Plane001
+    400056: //RootNode
+    2300000: Cylinder001
+    2300002: Part1
+    2300004: Part10
+    2300006: Part11
+    2300008: Part12
+    2300010: Part13
+    2300012: Part14
+    2300014: Part15
+    2300016: Part16
+    2300018: Part17
+    2300020: Part18
+    2300022: Part19
+    2300024: Part2
+    2300026: Part20
+    2300028: Part21
+    2300030: Part22
+    2300032: Part23
+    2300034: Part24
+    2300036: Part25
+    2300038: Part26
+    2300040: Part3
+    2300042: Part4
+    2300044: Part5
+    2300046: Part6
+    2300048: Part7
+    2300050: Part8
+    2300052: Part9
+    2300054: Plane001
+    3300000: Cylinder001
+    3300002: Part1
+    3300004: Part10
+    3300006: Part11
+    3300008: Part12
+    3300010: Part13
+    3300012: Part14
+    3300014: Part15
+    3300016: Part16
+    3300018: Part17
+    3300020: Part18
+    3300022: Part19
+    3300024: Part2
+    3300026: Part20
+    3300028: Part21
+    3300030: Part22
+    3300032: Part23
+    3300034: Part24
+    3300036: Part25
+    3300038: Part26
+    3300040: Part3
+    3300042: Part4
+    3300044: Part5
+    3300046: Part6
+    3300048: Part7
+    3300050: Part8
+    3300052: Part9
+    3300054: Plane001
+    4300000: Part1
+    4300002: Part2
+    4300004: Part3
+    4300006: Part4
+    4300008: Part5
+    4300010: Part6
+    4300012: Part7
+    4300014: Part8
+    4300016: Part9
+    4300018: Part10
+    4300020: Part11
+    4300022: Part12
+    4300024: Part13
+    4300026: Part14
+    4300028: Part15
+    4300030: Part16
+    4300032: Part17
+    4300034: Part18
+    4300036: Part19
+    4300038: Part20
+    4300040: Part21
+    4300042: Part22
+    4300044: Part23
+    4300046: Part24
+    4300048: Part25
+    4300050: Part26
+    4300052: Cylinder001
+    4300054: Plane001
+    7400000: Take 001
+    7400002: Start
+    7400004: End
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder001
+        weight: 1
+      - path: Part1
+        weight: 1
+      - path: Part2
+        weight: 1
+      - path: Part3
+        weight: 1
+      - path: Part4
+        weight: 1
+      - path: Part5
+        weight: 1
+      - path: Part6
+        weight: 1
+      - path: Part7
+        weight: 1
+      - path: Part8
+        weight: 1
+      - path: Part9
+        weight: 1
+      - path: Part10
+        weight: 1
+      - path: Part11
+        weight: 1
+      - path: Part12
+        weight: 1
+      - path: Part13
+        weight: 1
+      - path: Part14
+        weight: 1
+      - path: Part15
+        weight: 1
+      - path: Part16
+        weight: 1
+      - path: Part17
+        weight: 1
+      - path: Part18
+        weight: 1
+      - path: Part19
+        weight: 1
+      - path: Part20
+        weight: 1
+      - path: Part21
+        weight: 1
+      - path: Part22
+        weight: 1
+      - path: Part23
+        weight: 1
+      - path: Part24
+        weight: 1
+      - path: Part25
+        weight: 1
+      - path: Part26
+        weight: 1
+      - path: Plane001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Start
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder001
+        weight: 1
+      - path: Part1
+        weight: 1
+      - path: Part2
+        weight: 1
+      - path: Part3
+        weight: 1
+      - path: Part4
+        weight: 1
+      - path: Part5
+        weight: 1
+      - path: Part6
+        weight: 1
+      - path: Part7
+        weight: 1
+      - path: Part8
+        weight: 1
+      - path: Part9
+        weight: 1
+      - path: Part10
+        weight: 1
+      - path: Part11
+        weight: 1
+      - path: Part12
+        weight: 1
+      - path: Part13
+        weight: 1
+      - path: Part14
+        weight: 1
+      - path: Part15
+        weight: 1
+      - path: Part16
+        weight: 1
+      - path: Part17
+        weight: 1
+      - path: Part18
+        weight: 1
+      - path: Part19
+        weight: 1
+      - path: Part20
+        weight: 1
+      - path: Part21
+        weight: 1
+      - path: Part22
+        weight: 1
+      - path: Part23
+        weight: 1
+      - path: Part24
+        weight: 1
+      - path: Part25
+        weight: 1
+      - path: Part26
+        weight: 1
+      - path: Plane001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: End
+      takeName: Take 001
+      firstFrame: 65
+      lastFrame: 115
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder001
+        weight: 1
+      - path: Part1
+        weight: 1
+      - path: Part2
+        weight: 1
+      - path: Part3
+        weight: 1
+      - path: Part4
+        weight: 1
+      - path: Part5
+        weight: 1
+      - path: Part6
+        weight: 1
+      - path: Part7
+        weight: 1
+      - path: Part8
+        weight: 1
+      - path: Part9
+        weight: 1
+      - path: Part10
+        weight: 1
+      - path: Part11
+        weight: 1
+      - path: Part12
+        weight: 1
+      - path: Part13
+        weight: 1
+      - path: Part14
+        weight: 1
+      - path: Part15
+        weight: 1
+      - path: Part16
+        weight: 1
+      - path: Part17
+        weight: 1
+      - path: Part18
+        weight: 1
+      - path: Part19
+        weight: 1
+      - path: Part20
+        weight: 1
+      - path: Part21
+        weight: 1
+      - path: Part22
+        weight: 1
+      - path: Part23
+        weight: 1
+      - path: Part24
+        weight: 1
+      - path: Part25
+        weight: 1
+      - path: Part26
+        weight: 1
+      - path: Plane001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

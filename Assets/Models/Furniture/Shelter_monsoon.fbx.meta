@@ -1,0 +1,205 @@
+fileFormatVersion: 2
+guid: 4c4a079ac9542284aa84812dbc9a74da
+timeCreated: 1484405166
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: floor
+    100002: ref
+    100004: sandbag
+    100006: sandbag (10)
+    100008: sandbag (11)
+    100010: sandbag (12)
+    100012: sandbag (13)
+    100014: sandbag (14)
+    100016: sandbag (15)
+    100018: sandbag (16)
+    100020: sandbag (17)
+    100022: sandbag (18)
+    100024: sandbag (19)
+    100026: sandbag (2)
+    100028: sandbag (20)
+    100030: sandbag (21)
+    100032: sandbag (22)
+    100034: sandbag (3)
+    100036: sandbag (4)
+    100038: sandbag (5)
+    100040: sandbag (6)
+    100042: sandbag (7)
+    100044: sandbag (8)
+    100046: sandbag (9)
+    100048: sandbags
+    100050: shelter
+    100052: //RootNode
+    100054: window
+    400000: floor
+    400002: ref
+    400004: sandbag
+    400006: sandbag (10)
+    400008: sandbag (11)
+    400010: sandbag (12)
+    400012: sandbag (13)
+    400014: sandbag (14)
+    400016: sandbag (15)
+    400018: sandbag (16)
+    400020: sandbag (17)
+    400022: sandbag (18)
+    400024: sandbag (19)
+    400026: sandbag (2)
+    400028: sandbag (20)
+    400030: sandbag (21)
+    400032: sandbag (22)
+    400034: sandbag (3)
+    400036: sandbag (4)
+    400038: sandbag (5)
+    400040: sandbag (6)
+    400042: sandbag (7)
+    400044: sandbag (8)
+    400046: sandbag (9)
+    400048: sandbags
+    400050: shelter
+    400052: //RootNode
+    400054: window
+    2300000: floor
+    2300002: ref
+    2300004: sandbag
+    2300006: sandbag (10)
+    2300008: sandbag (11)
+    2300010: sandbag (12)
+    2300012: sandbag (13)
+    2300014: sandbag (14)
+    2300016: sandbag (15)
+    2300018: sandbag (16)
+    2300020: sandbag (17)
+    2300022: sandbag (18)
+    2300024: sandbag (19)
+    2300026: sandbag (2)
+    2300028: sandbag (20)
+    2300030: sandbag (21)
+    2300032: sandbag (22)
+    2300034: sandbag (3)
+    2300036: sandbag (4)
+    2300038: sandbag (5)
+    2300040: sandbag (6)
+    2300042: sandbag (7)
+    2300044: sandbag (8)
+    2300046: sandbag (9)
+    2300048: shelter
+    2300050: window
+    3300000: floor
+    3300002: ref
+    3300004: sandbag
+    3300006: sandbag (10)
+    3300008: sandbag (11)
+    3300010: sandbag (12)
+    3300012: sandbag (13)
+    3300014: sandbag (14)
+    3300016: sandbag (15)
+    3300018: sandbag (16)
+    3300020: sandbag (17)
+    3300022: sandbag (18)
+    3300024: sandbag (19)
+    3300026: sandbag (2)
+    3300028: sandbag (20)
+    3300030: sandbag (21)
+    3300032: sandbag (22)
+    3300034: sandbag (3)
+    3300036: sandbag (4)
+    3300038: sandbag (5)
+    3300040: sandbag (6)
+    3300042: sandbag (7)
+    3300044: sandbag (8)
+    3300046: sandbag (9)
+    3300048: shelter
+    3300050: window
+    4300000: ref
+    4300002: shelter
+    4300004: floor
+    4300006: window
+    4300008: sandbag
+    4300010: sandbag (12)
+    4300012: sandbag (11)
+    4300014: sandbag (14)
+    4300016: sandbag (10)
+    4300018: sandbag (13)
+    4300020: sandbag (9)
+    4300022: sandbag (17)
+    4300024: sandbag (6)
+    4300026: sandbag (15)
+    4300028: sandbag (4)
+    4300030: sandbag (16)
+    4300032: sandbag (3)
+    4300034: sandbag (18)
+    4300036: sandbag (5)
+    4300038: sandbag (21)
+    4300040: sandbag (7)
+    4300042: sandbag (19)
+    4300044: sandbag (8)
+    4300046: sandbag (22)
+    4300048: sandbag (20)
+    4300050: sandbag (2)
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

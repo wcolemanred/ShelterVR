@@ -90,6 +90,34 @@ Sign up for a free [Salesforce Developer Edition](https://developer.salesforce.c
 #### Deploy the Shelter Project package
 **TODO: finish writing instructions**
 
+#### Open the ShelterVR Unity project
+1. Open Unity
+2. In the project list click **Open** and select the directory of the git project (ShelterVR by default).
+3. Let Unity load the project (it takes longer the first time).
+
+After loading the project, you will get a couple of warnings (3) and errors (18).
+
+Here are some of the errors you may get:
+- Unable to parse YAML file
+- Unable to parse *<...>*.meta
+- Compilation errors related to GvrController
+- ImportFBX Errors
+
+Here are some the warning you may get:
+- Use of UNITY_MATRIX_MV is detected
+- File 'Character_woman' has animation import warnings.
+
+You should be able to ignore those for now as we will correct them by swithing the target platform to Android in the next step.
+
+#### Switch to an Android build
+1. Open the **File > Build Settings** menu
+2. Select **Android** as the Platform
+3. Select **ETC2 (GLES 3.0)** as the Texture Compression
+4. Click on **Switch Platform** and wait a couple of minutes for the project to convert (this can take more than 10 minutes of low-end machines)
+
+#### Setup the oAuth connection
+- In the **Project** window, go to Assets > Scenes
+
 ## Licenses
 This project uses:
 - [Google VR SDK for Unity](https://github.com/googlevr/gvr-unity-sdk) licensed under Apache License 2.0

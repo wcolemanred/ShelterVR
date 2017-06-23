@@ -22,6 +22,8 @@ You will also need the following:
 - A [Google Daydream View](https://vr.google.com/daydream/) VR headset
 - A [Daydream compatible mobile phone](https://vr.google.com/intl/en_uk/daydream/smartphonevr/phones/) (we used a Google Pixel XL)
 
+*Note:* if you do now own this hardware, you can still run the project on your computer with the [Dadyream controller emulator](https://developers.google.com/vr/daydream/controller-emulator) (requires an Android phone with a gyroscope).
+
 **Software** (installation instruction follow)
 - Android SDK tools
 - Unity 5.6.1
@@ -95,11 +97,11 @@ Sign up for a free [Salesforce Developer Edition](https://developer.salesforce.c
 2. In the project list click **Open** and select the directory of the git project (ShelterVR by default).
 3. Let Unity load the project (it takes longer the first time).
 
-After loading the project, you will get a couple of warnings (3) and errors (18).
+After loading the project, you will get a couple of warnings and errors (these will vary accross versions and envirnoments).
 
 Here are some of the errors you may get:
 - Unable to parse YAML file
-- Unable to parse *<...>*.meta
+- Unable to parse *<FILE>*.meta
 - Compilation errors related to GvrController
 - ImportFBX Errors
 
@@ -113,10 +115,22 @@ You should be able to ignore those for now as we will correct them by swithing t
 1. Open the **File > Build Settings** menu
 2. Select **Android** as the Platform
 3. Select **ETC2 (GLES 3.0)** as the Texture Compression
-4. Click on **Switch Platform** and wait a couple of minutes for the project to convert (this can take more than 10 minutes of low-end machines)
+4. Click on **Switch Platform** and wait a couple of minutes for the project to convert (this can take more than 10 minutes of low-end machines).
+
+Once converterted into an Android project, the compilation errors should be gone.
 
 #### Setup the oAuth connection
-- In the **Project** window, go to Assets > Scenes
+1. In the **Project** window, navigate the tree to **Assets > scripts**
+2. Double-click on **SalesforceAuthConfig** in the list of resources at the right of the tree. This will open the code editor (MS Visual Studio or MonoDevelop)
+3. Fill in the constant values with the oAuth settings you saved when you created the Connected App in Salesforce.
+4. Optionnaly fill in your username and password to save some time for your tests
+5. Close the code editor
+
+#### Run a test in Unity
+**TODO: finish writing instructions**
+
+#### Build and run on Android
+**TODO: finish writing instructions**
 
 ## Licenses
 This project uses:

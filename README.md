@@ -41,7 +41,7 @@ Android Debug Bridge version 1.0.39
 Revision 5943271ace17-android
 ```
 
-### Enable developer mode on your phone
+### Enable Developer Mode on your phone
 Find the instructions to enable the developer mode on your phone (instructions vary depending on the phone model).
 
 Once you have enabled developer mode, enable USB debugging.
@@ -58,24 +58,68 @@ List of devices attached
 
 You want to make sure that the status is `device`.
 
-### Checkout project from git
+### Clone or download project from git
+Start cloning or downloading the project while you continue to setup.
 
 ### Install Unity
 Install [Unity 5.6.1](https://unity3d.com/).
 
-### Sign up for a Salesforce DE org
+### Sign up for a Salesforce DE Org
 Sign up for a free [Salesforce Developer Edition](https://developer.salesforce.com/signup) (DE) organization.
 
-**TODO: finish writing instructions**
-#### Create a connected application.
+#### Create a Connected App
 1. Log in to your DE org.
-2. At the top right of the page, select the gear icon and then click Setup.
-3. From Setup, enter App Manager in the Quick Find and select App Manager. Select the New Connected App.
-4. Enter the Connected App Name SalesforceVR and your contact email. (Remember, one word, no space!)
-5. Under API (Enable OAuth Settings), click to check the Enable OAuth Settings checkbox. Enter a callback URL (we use http://localhost), and under Selected OAuth Scope, move Full access (full) to the Selected OAuth Scopes box. Click Save.
-6. From this screen, copy the connect app’s Consumer Key and Consumer Secret someplace temporarily. You’ll enter this information into the Salesforce Client in Unity after we’re done setting up here.
+2. At the top right of the page, select the gear icon and then click **Setup**.
+3. From Setup, enter "App Manager" in the Quick Find and select **App Manager**.
+4. Click **New Connected App**.
+5. Enter "SalesforceVR" as the **Connected App Name**
+6. Enter your **Contact Email**.
+7. Under **API (Enable OAuth Settings)**, check the **Enable OAuth Settings** checkbox.
+8. Enter "http://localhost:8080/" as the **Callback UR**.
+9. Under **Selected OAuth Scope**, move **Access and manage your data (API)** to the Selected OAuth Scopes list.
+10. Click **Save**.
+11. From this screen, copy the connect app’s **Consumer Key** and **Consumer Secret** someplace temporarily. You’ll enter this information in Unity after we’re done setting up here.
 
-#### Deploy package.
+#### Setup My Domain
+1. [Enable My Domain](https://help.salesforce.com/articleView?id=domain_name_setup.htm)
+2. Deploy it to your users:
+   1. In Setup, enter "My Domain" in the Quick Find box and select **My Domain**.
+   2. Click **Deploy to Users**.
+   3. Click **OK**.
+
+#### Deploy the Shelter Project package
+**TODO: finish writing instructions**
+
+#### Open the ShelterVR Unity project
+1. Open Unity
+2. In the project list click **Open** and select the directory of the git project (ShelterVR by default).
+3. Let Unity load the project (it takes longer the first time).
+
+After loading the project, you will get a couple of warnings (3) and errors (18).
+
+Here are some of the errors you may get:
+- Unable to parse YAML file
+- Unable to parse *<...>*.meta
+- Compilation errors related to GvrController
+- ImportFBX Errors
+
+Here are some the warning you may get:
+- Use of UNITY_MATRIX_MV is detected
+- File 'Character_woman' has animation import warnings.
+
+You should be able to ignore those for now as we will correct them by swithing the target platform to Android in the next step.
+
+#### Switch to an Android build
+1. Open the **File > Build Settings** menu
+2. Select **Android** as the Platform
+3. Select **ETC2 (GLES 3.0)** as the Texture Compression
+4. Click on **Switch Platform** and wait a couple of minutes for the project to convert (this can take more than 10 minutes of low-end machines)
+
+#### Setup the oAuth connection
+- In the **Project** window, go to Assets > Scenes
 
 ## Licenses
-This project uses the [Google VR SDK for Unity](https://github.com/googlevr/gvr-unity-sdk) which is licensed under the Apache License 2.0.
+This project uses:
+- [Google VR SDK for Unity](https://github.com/googlevr/gvr-unity-sdk) licensed under Apache License 2.0
+- [Salesforce Unity SDK](https://github.com/pozil/salesforce-unity-sdk) licensed under BSD-3-Clause
+  - JSONObject Copyright (C) 2012 Boomlagoon Ltd.

@@ -133,7 +133,9 @@ Once converterted into an Android project, the compilation errors should be gone
 **TODO: finish writing instructions**
 
 ## Licenses
-This project uses:
+This project is licensed under under Apache License 2.0 (see LICENSE.txt for more details).
+
+This project uses the following dependencies:
 - [Google VR SDK for Unity](https://github.com/googlevr/gvr-unity-sdk) licensed under Apache License 2.0
 - [Salesforce Unity SDK](https://github.com/pozil/salesforce-unity-sdk) licensed under BSD-3-Clause
   - JSONObject Copyright (C) 2012 Boomlagoon Ltd.

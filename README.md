@@ -9,7 +9,7 @@ The goal of the Shelter project is to learn about the shelter needs of displaced
  
 The project involves a Salesforce Lightning application and an interactive Virtual Reality (VR) application.
  
-The Lightning application allows creating a ‘Brief’ based on requirements (budget, location, aid agency…). Participants can create a configuration (bill of materials) for a brief. A configuration contains the list of material (furniture, power sources…) that can be utilized in the container shelter.
+The Lightning application allows creating a ‘Brief’ based on requirements (budget, location, aid agency…). Participants create a configuration (bill of materials) for a brief. A configuration contains the list of material (furniture, power sources…) that can be utilized in the container shelter.
  
 Once a bill of materials is assembled, participants use the Shelter VR application to place the configuration’s material inside the shelter in 3D.
 
@@ -103,10 +103,10 @@ Sign up for a free [Salesforce Developer Edition](https://developer.salesforce.c
 #### Open the ShelterVR Unity project
 1. Open Unity
 2. In the project list click **Open** and select the directory of the git project (ShelterVR by default)
-3. Let Unity load the project (it can take a few minutes the first time)
+3. Let Unity load the project (it takes a few minutes the first time)
 
 After loading the project, you will get a couple of warnings and errors (these will vary accross versions and envirnoments).
-Theses errors and warning are visible in the **Console** window. If the console is not visible, you can open it with the **Window > Console** menu.
+Theses errors and warning are visible in the **Console** window. If the console is not visible, open it with the **Window > Console** menu.
 
 Here are some of the errors you may get:
 - Unable to parse YAML file
@@ -124,7 +124,7 @@ You should be able to safely ignore those for now as we will correct them by swi
 1. Open the **File > Build Settings** menu
 2. Select **Android** as the Platform
 3. Select **ETC2 (GLES 3.0)** as the Texture Compression
-4. Click on **Switch Platform** and wait a couple of minutes for the project to convert (this can take more than 10 minutes of low-end machines)
+4. Click on **Switch Platform** and wait a couple of minutes for the project to convert (this takes more than 10 minutes of low-end machines)
 
 Once converterted into an Android project, the compilation errors should be gone.
 
@@ -159,7 +159,7 @@ This appears when we are trying to run a Daydream scene without a controller emu
 7. Click on the **Play** (icon) button on the top center of the window to stop the play mode
 
 #### Build and run on Android
-Now that our authentication flow is operational, we can build and deploy on Android.
+Now that our authentication flow is operational, let's build and deploy on Android.
 
 1. Open the **File > Build Settings** menu
 2. Make sure that:
@@ -174,8 +174,8 @@ If everything goes well, the ShelterVR app will be built, deployed on your phone
 Congratulations, you made it!
 
 #### Android logs
-When running on Android, you can access the app logs in realtime by running `adb logcat -s Unity` in a terminal.
-You can use `adb logcat -c` to clear the Android logs.
+When running on Android, access the app logs in realtime by running `adb logcat -s Unity` in a terminal.
+Use `adb logcat -c` to clear the Android logs.
 
 
 ## Licenses

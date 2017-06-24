@@ -75,12 +75,12 @@ Sign up for a free [Salesforce Developer Edition](https://developer.salesforce.c
 #### Create a Connected App
 1. Log in to your DE org.
 2. At the top right of the page, select the gear icon and then click **Setup**.
-3. From Setup, enter "App Manager" in the Quick Find and select **App Manager**.
+3. From Setup, enter `App Manager` in the Quick Find and select **App Manager**.
 4. Click **New Connected App**.
-5. Enter "SalesforceVR" as the **Connected App Name**
+5. Enter `SalesforceVR` as the **Connected App Name**
 6. Enter your **Contact Email**.
 7. Under **API (Enable OAuth Settings)**, check the **Enable OAuth Settings** checkbox.
-8. Enter "http://localhost:8080/" as the **Callback UR**.
+8. Enter `http://localhost:8080/` as the **Callback UR**.
 9. Under **Selected OAuth Scope**, move **Access and manage your data (API)** to the Selected OAuth Scopes list.
 10. Click **Save**.
 11. From this screen, copy the connect app’s **Consumer Key** and **Consumer Secret** someplace temporarily. You’ll enter this information in Unity after we’re done setting up here.
@@ -88,7 +88,7 @@ Sign up for a free [Salesforce Developer Edition](https://developer.salesforce.c
 #### Setup My Domain
 1. [Enable My Domain](https://help.salesforce.com/articleView?id=domain_name_setup.htm)
 2. Deploy it to your users:
-   1. In Setup, enter "My Domain" in the Quick Find box and select **My Domain**.
+   1. In Setup, enter `My Domain` in the Quick Find box and select **My Domain**.
    2. Click **Deploy to Users**.
    3. Click **OK**.
 
@@ -96,15 +96,14 @@ Sign up for a free [Salesforce Developer Edition](https://developer.salesforce.c
 1. Install the [Shelter Project](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t0Y000001m8rt) package.
 2. Using the App Launcher (nine dots icon on the top right), navigate to **Object Definitions** under **All Items**
 3. Click **Import**
-4. In the left column, switch to "Custom Objects" tab and select "Object Definitions"
-5. In the middle column, select "Add new records"
-6. In the last column, drag and drop the provided "object_definition_extract.csv" file
-7. Click on Next in the lower right corner of the screen
-8. In the Edit column, click on the "Map" links and associate each record field with a column
-9. Map all fields by locating the matching field, click to tick, then repeat this for each line. When done, click on Next in the lower right corner of the screen
+4. In the left column, switch to **Custom Objects** tab and select **Object Definitions**
+5. In the middle column, select **Add new records**
+6. In the last column, drag and drop the provided [object_definitions.csv](/object_definitions.csv?raw=true) file
+7. Click **Next** in the lower right corner of the screen
+8. In the Edit column, click on the **Map** links and associate each record field with a column
+9. Map all fields by locating the matching field. When done, click **Next** in the lower right corner of the screen
 10. Review the import configuration, it should indicate that your import will include 10 mapped fields.
-11. Click on "Start Import" in the lower right corner of the screen
-12. Close the confirmation dialog
+11. Click **Start Import**
 
 #### Create some sample data
 1. Using the App Launcher (nine dots icon on the top right), navigate to the **Shelter Project** app
@@ -175,11 +174,11 @@ This appears when we are trying to run a Daydream scene without a controller emu
 #### Build and run on Android
 Now that our authentication flow is operational, let's build and deploy on Android.
 
-1. Open the **File > Build Settings** menu
-2. Make sure that:
+1. Make sure that:
    1. Android is still the target platform
    2. You phone is plugged in via USB
    3. ADB can access it (run `adb devices` as mentioned earlier)
+2. Open the **File > Build Settings** menu
 3. Click **Build And Run**.
 
 This will take a couple minutes.

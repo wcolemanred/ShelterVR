@@ -1,8 +1,10 @@
+<img align="right" src="/Assets/Icon/app-icon-192x192.png?raw=true" alt="Shelter Project by Salesforce"/>
+
 # Shelter Project by Salesforce
 
 **Disclaimer:** Salesforce employees created this project as a demonstration environment. It is provided as-is without official support from Salesforce.
 
-## Overview
+## About
 The goal of the Shelter project is to learn about the shelter needs of displaced people. The participants will take the role of a business that up-cycles shipping containers to provide shelters to aid agencies around the world.
  
 The project involves a Salesforce Lightning application and an interactive Virtual Reality (VR) application.
@@ -92,12 +94,19 @@ Sign up for a free [Salesforce Developer Edition](https://developer.salesforce.c
 #### Deploy the Shelter Project package
 **TODO: finish writing instructions**
 
+#### Create a sample Brief
+**TODO: finish writing instructions**
+
+#### Create a sample Configuration
+**TODO: finish writing instructions**
+
 #### Open the ShelterVR Unity project
 1. Open Unity
-2. In the project list click **Open** and select the directory of the git project (ShelterVR by default).
-3. Let Unity load the project (it takes longer the first time).
+2. In the project list click **Open** and select the directory of the git project (ShelterVR by default)
+3. Let Unity load the project (it can take a few minutes the first time)
 
 After loading the project, you will get a couple of warnings and errors (these will vary accross versions and envirnoments).
+Theses errors and warning are visible in the **Console** window. If the console is not visible, you can open it with the **Window > Console** menu.
 
 Here are some of the errors you may get:
 - Unable to parse YAML file
@@ -107,27 +116,45 @@ Here are some of the errors you may get:
 
 Here are some the warning you may get:
 - Use of UNITY_MATRIX_MV is detected
-- File 'Character_woman' has animation import warnings.
+- File 'Character_woman' has animation import warnings
 
-You should be able to ignore those for now as we will correct them by swithing the target platform to Android in the next step.
+You should be able to safely ignore those for now as we will correct them by swithing the target platform to Android in the next step.
 
 #### Switch to an Android build
 1. Open the **File > Build Settings** menu
 2. Select **Android** as the Platform
 3. Select **ETC2 (GLES 3.0)** as the Texture Compression
-4. Click on **Switch Platform** and wait a couple of minutes for the project to convert (this can take more than 10 minutes of low-end machines).
+4. Click on **Switch Platform** and wait a couple of minutes for the project to convert (this can take more than 10 minutes of low-end machines)
 
 Once converterted into an Android project, the compilation errors should be gone.
 
 #### Setup the oAuth connection
 1. In the **Project** window, navigate the tree to **Assets > scripts**
 2. Double-click on **SalesforceAuthConfig** in the list of resources at the right of the tree. This will open the code editor (MS Visual Studio or MonoDevelop)
-3. Fill in the constant values with the oAuth settings you saved when you created the Connected App in Salesforce.
+3. Fill in the constant values with the oAuth settings you saved when you created the Connected App in Salesforce
 4. Optionnaly fill in your username and password to save some time for your tests
 5. Close the code editor
 
 #### Run a test in Unity
-**TODO: finish writing instructions**
+1. In the **Project** window, navigate the tree to **Assets > Scenes**
+2. Double-click on **Menu** in the list of resources at the right of the tree. This will open the main menu scene.
+3. Make sure that the **Console** window is visible
+4. Click on the **Play** (icon) button on the top center of the window to start the play mode
+
+At this point you will get 2 warnings in the console that you can safely ignore:
+
+>VRDevice daydream not supported in Editor Mode.  Please run on target device.
+
+This indicates that we are testing a Dadyream scene in the editor.
+
+> Failed to setup port forwarding. Exit code 1 returned by process: CMD.exe /k adb forward tcp:7003 tcp:7003 & exit
+error: no devices/emulators found
+
+This appears when we are trying to run a Daydream scene without a controller emulator. You can set up the emulator later if you wish to test the whole project but for now we are just going to test the authentication flow before deploying on Android.
+
+5. Use your mouse and keyboard in the **Game** window to input your **Username** and **Password** and click on **Log In**
+6. Watch the ouput of the **Console** to validate that the authentication works. If the authentication succeeded, you should now see the 3D environment with your configuration listed in the game window.
+7. Click on the **Play** (icon) button on the top center of the window to stop the play mode
 
 #### Build and run on Android
 **TODO: finish writing instructions**

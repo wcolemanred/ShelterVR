@@ -25,7 +25,7 @@ You will also need the following:
 - A [Google Daydream View](https://vr.google.com/daydream/) VR headset
 - A [Daydream compatible mobile phone](https://vr.google.com/intl/en_uk/daydream/smartphonevr/phones/) (we used a Google Pixel XL)
 
-*Note:* if you do now own this hardware, you can still run the project on your computer with the [Dadyream controller emulator](https://developers.google.com/vr/daydream/controller-emulator) (requires an Android phone with a gyroscope).
+*Note:* if you do now own this hardware, you can still run the project on your computer with the [Daydream controller emulator](https://developers.google.com/vr/daydream/controller-emulator) (requires an Android phone with a gyroscope).
 
 **Software** (installation instruction follow)
 - Android SDK tools
@@ -110,15 +110,15 @@ Sign up for a free [Salesforce Developer Edition](https://developer.salesforce.c
 2. In the **Brief** tab, click **New**
 3. Fill the brief information and click **Save**
 4. Switch to the **Configuration** tab, click **New**
-5. Name your configuraiton, select the brief you just created and click **Save**
-6. Edit your configuration by drag and droping **Stock** items into the ***Materials** list.
+5. Name your configuration, select the brief you just created and click **Save**
+6. Edit your configuration by drag and dropping **Stock** items into the ***Materials** list.
 
 #### Open the ShelterVR Unity project
 1. Open Unity
 2. In the project list click **Open** and select the directory of the git project (ShelterVR by default)
 3. Let Unity load the project (it takes a few minutes the first time)
 
-After loading the project, you will get a couple of warnings and errors (these will vary accross versions and envirnoments).
+After loading the project, you will get a couple of warnings and errors (these will vary across versions and environments).
 Theses errors and warning are visible in the **Console** window. If the console is not visible, open it with the **Window > Console** menu.
 
 Here are some of the errors you may get:
@@ -131,7 +131,7 @@ Here are some the warning you may get:
 - Use of UNITY_MATRIX_MV is detected
 - File 'Character_woman' has animation import warnings
 
-You should be able to safely ignore those for now as we will correct them by swithing the target platform to Android in the next step.
+You should be able to safely ignore those for now as we will correct them by switching the target platform to Android in the next step.
 
 #### Switch to an Android build
 1. Open the **File > Build Settings** menu
@@ -139,13 +139,13 @@ You should be able to safely ignore those for now as we will correct them by swi
 3. Select **ETC2 (GLES 3.0)** as the Texture Compression
 4. Click on **Switch Platform** and wait a couple of minutes for the project to convert (this takes more than 10 minutes of low-end machines)
 
-Once converterted into an Android project, the compilation errors should be gone.
+Once converted into an Android project, the compilation errors should be gone.
 
-#### Setup the oAuth connection
+#### Setup the OAuth connection
 1. In the **Project** window, navigate the tree to **Assets > scripts**
 2. Double-click on **SalesforceAuthConfig** in the list of resources at the right of the tree. This will open the code editor (MS Visual Studio or MonoDevelop)
-3. Fill in the constant values with the oAuth settings you saved when you created the Connected App in Salesforce
-4. Optionnaly fill in your username and password to save some time for your tests
+3. Fill in the constant values with the OAuth settings you saved when you created the Connected App in Salesforce
+4. Optionally fill in your username and password to save some time for your tests
 5. Close the code editor
 
 #### Run a test in Unity
@@ -160,7 +160,7 @@ At this point you will get 2 warnings in the console that you can safely ignore:
 
 >VRDevice daydream not supported in Editor Mode.  Please run on target device.
 
-This indicates that we are testing a Dadyream scene in the editor.
+This indicates that we are testing a Daydream scene in the editor.
 
 > Failed to setup port forwarding. Exit code 1 returned by process: CMD.exe /k adb forward tcp:7003 tcp:7003 & exit
 error: no devices/emulators found
@@ -168,7 +168,7 @@ error: no devices/emulators found
 This appears when we are trying to run a Daydream scene without a controller emulator. You can set up the emulator later if you wish to test the whole project but for now we are just going to test the authentication flow before deploying on Android.
 
 5. Use your mouse and keyboard in the **Game** window to input your **Username** and **Password** and click on **Log In**
-6. Watch the ouput of the **Console** to validate that the authentication works. If the authentication succeeded, you should now see the 3D environment with your configuration listed in the game window.
+6. Watch the output of the **Console** to validate that the authentication works. If the authentication succeeded, you should now see the 3D environment with your configuration listed in the game window.
 7. Click on the **Play** (icon) button on the top center of the window to stop the play mode
 
 #### Build and run on Android
@@ -187,12 +187,12 @@ If everything goes well, the ShelterVR app will be built, deployed on your phone
 Congratulations, you made it!
 
 #### Android logs
-When running on Android, access the app logs in realtime by running `adb logcat -s Unity` in a terminal.
+When running on Android, access the app logs in real-time by running `adb logcat -s Unity` in a terminal.<br/>
 Use `adb logcat -c` to clear the Android logs.
 
 
 ## Licenses
-This project is licensed under under Apache License 2.0 (see LICENSE.txt for more details).
+This project is licensed under Apache License 2.0 (see LICENSE.txt for more details).
 
 This project uses the following dependencies:
 - [Google VR SDK for Unity](https://github.com/googlevr/gvr-unity-sdk) licensed under Apache License 2.0

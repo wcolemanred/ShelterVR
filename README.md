@@ -92,13 +92,26 @@ Sign up for a free [Salesforce Developer Edition](https://developer.salesforce.c
    3. Click **OK**.
 
 #### Deploy the Shelter Project package
-**TODO: finish writing instructions**
+1. Install the [Shelter Project](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t0Y000001m8rt) package.
+2. Using the App Launcher (nine dots icon on the top right), navigate to **Object Definitions** under **All Items**
+3. Click **Import**
+4. In the left column, switch to "Custom Objects" tab and select "Object Definitions"
+5. In the middle column, select "Add new records"
+6. In the last column, drag and drop the provided "object_definition_extract.csv" file
+7. Click on Next in the lower right corner of the screen
+8. In the Edit column, click on the "Map" links and associate each record field with a column
+9. Map all fields by locating the matching field, click to tick, then repeat this for each line. When done, click on Next in the lower right corner of the screen
+10. Review the import configuration, it should indicate that your import will include 10 mapped fields.
+11. Click on "Start Import" in the lower right corner of the screen
+12. Close the confirmation dialog
 
-#### Create a sample Brief
-**TODO: finish writing instructions**
-
-#### Create a sample Configuration
-**TODO: finish writing instructions**
+#### Create some sample data
+1. Using the App Launcher (nine dots icon on the top right), navigate to the **Shelter Project** app
+2. In the **Brief** tab, click **New**
+3. Fill the brief information and click **Save**
+4. Switch to the **Configuration** tab, click **New**
+5. Name your configuraiton, select the brief you just created and click **Save**
+6. Edit your configuration by drag and droping **Stock** items into the ***Materials** list.
 
 #### Open the ShelterVR Unity project
 1. Open Unity

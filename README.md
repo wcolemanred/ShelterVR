@@ -16,7 +16,8 @@ Once a bill of materials is assembled, participants use the Shelter VR applicati
 ## Requirements
 In order to build and run the project you will need:
 - a good internet connection (several GB of download)
-- some development skills 
+- some development skills
+- some time and patience ;)
 
 You will also need the following:
 

@@ -136,6 +136,8 @@ Once converterted into an Android project, the compilation errors should be gone
 5. Close the code editor
 
 #### Run a test in Unity
+Before deploying to Android, we need to test the project in Unity to save some time. We want to make sure that the authentication flow works as expected.
+
 1. In the **Project** window, navigate the tree to **Assets > Scenes**
 2. Double-click on **Menu** in the list of resources at the right of the tree. This will open the main menu scene.
 3. Make sure that the **Console** window is visible
@@ -157,7 +159,24 @@ This appears when we are trying to run a Daydream scene without a controller emu
 7. Click on the **Play** (icon) button on the top center of the window to stop the play mode
 
 #### Build and run on Android
-**TODO: finish writing instructions**
+Now that our authentication flow is operational, we can build and deploy on Android.
+
+1. Open the **File > Build Settings** menu
+2. Make sure that:
+   1. Android is still the target platform
+   2. You phone is plugged in via USB
+   3. ADB can access it (run `adb devices` as mentioned earlier)
+3. Click **Build And Run**.
+
+This will take a couple minutes.
+If everything goes well, the ShelterVR app will be built, deployed on your phone and started.
+
+Congratulations, you made it!
+
+#### Android logs
+When running on Android, you can access the app logs in realtime by running `adb logcat -s Unity` in a terminal.
+You can use `adb logcat -c` to clear the Android logs.
+
 
 ## Licenses
 This project is licensed under under Apache License 2.0 (see LICENSE.txt for more details).

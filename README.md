@@ -186,10 +186,11 @@ If everything goes well, the ShelterVR app will be built, deployed on your phone
 
 Congratulations, you made it!
 
-#### Android logs
+#### ADB command cheat sheet
 When running on Android, access the app logs in real-time by running `adb logcat -s Unity` in a terminal.<br/>
 Use `adb logcat -c` to clear the Android logs.
 
+Use `adb install -r build.apk` to deploy your APK on your phone.
 
 ## Licenses
 This project is licensed under Apache License 2.0 (see LICENSE.txt for more details).

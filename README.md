@@ -93,7 +93,7 @@ Sign up for a free [Salesforce Developer Edition](https://developer.salesforce.c
    3. Click **OK**.
 
 #### Deploy the Shelter Project package
-1. Install the [Shelter Project](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t0Y000001m8rt) package.
+1. Install the [Shelter Project](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t0Y000001m8ry) package.
 2. Using the App Launcher (nine dots icon on the top right), navigate to **Object Definitions** under **All Items**
 3. Click **Import**
 4. In the left column, switch to **Custom Objects** tab and select **Object Definitions**

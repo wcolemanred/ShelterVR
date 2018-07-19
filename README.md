@@ -13,6 +13,8 @@ The Lightning application allows creating a ‘Brief’ based on requirements (b
  
 Once a bill of materials is assembled, participants use the Shelter VR application to place the configuration’s material inside the shelter in 3D.
 
+Watch a [video of the project](https://youtu.be/N7BwZ-IQ2H4).
+
 ## Requirements
 In order to build and run the project you will need:
 - a good internet connection (several GB of download)
